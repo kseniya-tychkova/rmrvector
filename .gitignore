@@ -1,0 +1,8 @@
+.env
+.eggs
+.cache
+*.egg-info/
+.idea
+in.txt
+*__pycache__*
+
