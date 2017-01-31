@@ -2,14 +2,22 @@ Introduction
 ============
 The test project for RMR to calculate scalar product of 2 vectors.
 
-How To Setup Requirements
-=========================
+Problem description:
+
+There is 2 compressed vectors. Program should calculate scalar product of
+these vectors.
+
+Compression means that each odd item in a list is a value and each even item is
+a count of value in decompressed vector.
+
+How To Setup Test Requirements
+==============================
 To install the requirements we need to create virtual environment and setup all required pip packages:
 
 ```
   virtualenv -p python3 .env
   source .env/bin/activate
-  pip install -r requirements.txt
+  pip install -r test-requirements.txt
 ```
 
 How To Run
